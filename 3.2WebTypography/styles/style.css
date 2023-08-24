@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: beige;
+}
+
+#container{
+    width:960px;
+    margin: auto;
+}
+
+.text-content{
+    text-align: center;
+    width: 480px;
+    margin: 120px auto;
+    border: solid #f1e089;
+    padding: 30px;
+    color: dimgrey; 
+}
+
+h1{
+    font-family: 'Merriweather', serif;
+    margin-bottom: 46px;
+    font-weight: 800;
+    line-height: 46px;
+    color: black;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+    letter-spacing: 5px;
+    
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}

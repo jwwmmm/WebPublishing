@@ -1,0 +1,30 @@
+/*CSS Document*/
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+    width: 70%;
+    margin: auto;
+    background-image: url("../images/background.jpeg");
+}
+
+header img{
+width: 100%;
+height: auto;
+
+}
+
+
+#container{
+    background-color: cornflowerblue;
+}
+
+.content-text,footer{
+    padding: 2%
+}
+
+footer{
+background-color: #8FCDF6;
+}

@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    margin:auto;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+    height: 150px;
+    width: 51%;
+    margin: 35px;
+}
+
+#photos img{
+    margin-top: 5%;
+}
+
+header h1{
+    float: left;
+}
+
+h1{
+    font-family: 'Noto Serif JP', serif;
+}
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*****nav bar*****/
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.KenyaHara_portfolio{
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header nav{
+    position: absolute;
+}
+
+header ul li{
+    list-style: none;
+    display: block;
+    margin-right: 100px;
+    padding: 8px;
+}
+
+nav ul li:hover{
+    font-weight: bolder;
+    font-weight:900;
+    opacity: 30%;
+    transition: 0.5s ease-in-out;
+}
+
+/*---banner---*/
+#banner img{
+    width: 100%;
+    height: auto;
+}
+
+#photos{
+    width:30%;
+    height: auto;
+    float:right;
+    overflow: overlay ;
+}
+
+#contenttext{
+    width: 71%;
+    margin:2% 0% 1% 9%;
+    line-height: 32px;
+    text-align:justify;
+}
+
+#contenttext p{
+    margin:22% 22% 0% 8%;
+}
+
+#content1{
+    margin-left: 15% ;
+}
+
+#contenttext2{
+    width: 71%;
+    margin:2% 0% 1% 9%;
+    line-height: 32px;
+    text-align:justify;
+}
+
+#contenttext2 p{
+    margin:-1% 21% 0% 8%
+}
+
+#contenttext2 h2{
+    font-size: 35px;
+    margin: 2% 0% 3% 8%;
+}
+
+#content2 img{
+    width:15%;
+    height:auto;
+    margin-left: 15%;
+}
+
+/******------------portfoliopage----------*******/
+#worksphotos{
+    margin:12% 0% 0% 5%;
+    overflow:auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+#worksphotos img{
+    margin-right:8%;
+    padding:10px;
+}
+
+#worksphotos::-webkit-scrollbar{
+    display:none;
+}
+
+/************works**********/
+header a:hover{
+    opacity: 30%;
+    transition:0.5s ease-in-out;
+}
+
+#subtle img{
+    width: 45%;
+    margin-left: 28%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+#twocol_1 img{
+    width: 45%;
+    height: auto;
+    margin-bottom: 48px;
+    float: left;
+    margin-left: 48px
+}
+
+#twocol_2 img{
+    width: 45%;
+    height: auto;
+    margin-bottom: 30px;
+    float: left;
+    margin-left: 48px;
+}
+
+#tsutaya img{
+    width: 50%;
+    height: auto;
+    margin-bottom: 30px;
+    margin-left: 25%;
+    margin-top: 30px;
+}
+
+#poster img{
+    width:100%;
+    height:auto;
+    margin-bottom: 30px;
+}
+
+#poster{
+   width:66%;
+   margin: auto;
+}
+
+#worksdes h1{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 30px;
+    padding-bottom: 30px;
+    border-bottom: 0.5px solid;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+#worksdes p{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    line-height: 22px;
+}
+
+
+footer{
+    margin: 2%;
+    margin-top: 5%;
+    text-align: center;
+    color:rgb(160, 160, 160);
+}
